@@ -38,6 +38,6 @@ def fetch_website_links(url):
     return [link for link in links if link]
 
 
-if __name__ == "__main__":
-    print(fetch_website_contents("https://edwarddonner.com"))
-    print(fetch_website_links("https://edwarddonner.com"))
+# if __name__ == "__main__":
+#     print(fetch_website_contents("https://edwarddonner.com"))
+#     print(fetch_website_links("https://edwarddonner.com"))
